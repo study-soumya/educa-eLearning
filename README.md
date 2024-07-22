@@ -49,7 +49,9 @@ To get started with the project, ensure you have Python installed on your system
    ```powershell
    ./env/Scripts/activate
    ```
-4. ```python
+4. Install the required packages:
+
+   ```python
    pip install -r requirements.txt
    ```
 5. Apply migrations to set up the database schema:
