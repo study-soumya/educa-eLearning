@@ -8,11 +8,12 @@ The Django E-Learning Platform is a dynamic educational platform that facilitate
 
 ### Key Components
 
-* **Courses Management:** A robust system for creating, managing, and tracking courses.
-* **Subjects Organization:** Allows for organizing courses under specific subjects for easy navigation and discovery.
-* **User Authentication:** Securely manages user accounts with basic authentication.
-* **Enrollment System:** Allow users to enroll in courses and track their progress.
-* **Content Access:** Provide enrolled users with access to course contents and materials.
+* **Dynamic Courses Management:** Allows educators to easily create, update, and manage courses, including adding and removing modules and content.
+* **Interactive Learning Environment:** Provides learners with access to course materials and modules, fostering an interactive learning experience.
+* **User Authentication and Authorization:** Implements secure user registration and login mechanisms, ensuring that only authorized users can access certain parts of the platform.
+* **Enrollment System:** Facilitates the process of learners enrolling in courses with automated notifications and access control.
+* **Content Delivery:** Offers flexible content delivery options, including text, video, and other multimedia formats, enhancing the learning experience.
+* **Real-time Communication:** Integrates chat rooms within courses for real-time discussions and Q&A sessions between learners and educators.
 
 ## Getting Started
 
@@ -22,8 +23,12 @@ To get started with the project, ensure you have Python installed on your system
 
 - Python 3.x
 - Django 4.x - 5.x
+- Docker
+- RabbitMQ
 - Redis (for caching)
 - SQLite (as the default database)
+- PostgreSQL (as the production database)
+- Nginx
 
 ### Installation
 
@@ -35,22 +40,16 @@ To get started with the project, ensure you have Python installed on your system
 2. Create a virtual environment:
 
    ```
-   python -m venv env/educa
+   python -m venv env
    ```
 3. Activate virtual environment:
 
    `For windows`
 
+   ```powershell
+   ./env/Scripts/activate
    ```
-   ./env/educa/Scripts/activate
-   ```
-
-   ```
-   cd educa
-   ```
-4. Install the required packages:
-
-   ```python
+4. ```python
    pip install -r requirements.txt
    ```
 5. Apply migrations to set up the database schema:
@@ -71,6 +70,7 @@ After setting up the environment, you can start exploring the platform's feature
 * **Accessing the Admin Panel:** Use the Django admin panel to manage courses, subjects, and user accounts. Default credentials are provided in the documentation.
 * **Enrolling in Courses:** Users can enroll in courses via the frontend interface. Enrollment requires authentication.
 * **Viewing Course Contents:** Once enrolled, users can access course contents and materials.
+* **Chat Functionality:** Learners can participate in chat rooms for course-specific discussions.
 
 ## Contributing
 
