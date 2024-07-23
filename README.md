@@ -81,3 +81,66 @@ Contributions to improve the platform are welcome. Please feel free to submit pu
 ## License
 
 * This project is licensed under the MIT License. See the *LICENSE* for more details.
+
+## Website Images
+
+1. Account Login Page:
+
+   ![1721712602582](image/README/1721712602582.png)
+2. Account Logout Page:
+
+   ![1721712707484](image/README/1721712707484.png)
+3. Instructor Course Page with no course:
+
+   ![1721712746576](image/README/1721712746576.png)
+4. Course create form:
+
+   ![1721712805321](image/README/1721712805321.png)
+5. Instructor courses page with one course:
+
+   ![1721712859813](image/README/1721712859813.png)
+6. Course delete confirmation page:
+
+   ![1721712894700](image/README/1721712894700.png)
+7. Course edit page, including the formset for course modules:
+
+   ![1721712942762](image/README/1721712942762.png)
+8. Add new image content form:
+
+   ![1721712999921](image/README/1721712999921.png)
+9. Course, Module, Contents management page:
+
+   ![1721713065765](image/README/1721713065765.png)
+10. Managing different module contents:
+
+    ![1721713094749](image/README/1721713094749.png)
+11. Reordering modules with drag and drop functionality:
+
+    ![1721713137334](image/README/1721713137334.png)
+12. Reordering module contents with drag and drop functionality:
+
+    ![1721713188786](image/README/1721713188786.png)
+13. Course List page:
+
+    ![1721713345268](image/README/1721713345268.png)
+14. Student Registration Form:
+
+    ![1721713404275](image/README/1721713404275.png)
+15. Course Content Page
+
+    ![1721713446685](image/README/1721713446685.png)
+16. Course Chat Room Page:
+
+    ![1721713503871](image/README/1721713503871.png)
+17. Chat Room Page but messages sent through WebSocket:
+
+    ![1721713565788](image/README/1721713565788.png)
+18. Chat Room Pages with messages sent from different browser windows:
+
+    ![1721713626343](image/README/1721713626343.png)
+19. Chat Room Pages with messages from two different user sessions:
+
+    ![1721713666026](image/README/1721713666026.png)
+20. Course detail page, including a link to the course chat room:
+
+    ![1721713716286](image/README/1721713716286.png)
